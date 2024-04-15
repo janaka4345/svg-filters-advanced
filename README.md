@@ -1,6 +1,6 @@
-#deep dive into svg filters and animations
+# deep dive into svg filters and animations
 
-##tech stack
+## tech stack
 - nextjs
 - tailwindcss
 - svg    

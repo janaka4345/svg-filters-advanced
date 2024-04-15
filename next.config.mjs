@@ -1,4 +1,10 @@
-module.exports = {
+// @ts-check
+
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+  /* config options here */
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>
@@ -29,3 +35,7 @@ module.exports = {
 
   // ...other config
 }
+
+export default nextConfig
+
+
